@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1589758521759" clover="3.2.0">
-  <project timestamp="1589758521759" name="All files">
-    <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="6" coveredelements="6" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
-    <file name="array-reverse.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/arrayReverse/lib/array-reverse.js">
+<coverage generated="1589835891124" clover="3.2.0">
+  <project timestamp="1589835891124" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="17" coveredelements="17" complexity="0" loc="15" ncloc="15" packages="2" files="2" classes="2"/>
+    <package name="arrayReverse.lib">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="6" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-    </file>
+      <file name="array-reverse.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/arrayReverse/lib/array-reverse.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="arrayShift.lib">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="array-shift.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/arrayShift/lib/array-shift.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
