@@ -13,4 +13,4 @@ Big O = n
 
 ## Solution
 
-![Reverse an array whitboard](../../assest/chal.jpeg)
+![Reverse an array whitboard](../../assest/chal.png)
