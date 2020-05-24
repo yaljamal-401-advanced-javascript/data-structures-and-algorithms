@@ -1,19 +1,18 @@
-const Node=require('../lib/node.js');
+const Node=require('../lib/linked-list.js');
 describe('Insert Node Module',()=>{
-it('Insert()',()=>{
 const value='some text';
 const node=new Node();
+it('Insert()',()=>{
 const add= node.insert(value);
-expect(add).toEqual(value);
+expect(add.head.value).toEqual(value);
 });
-it('includes()',()=>{
-    const value='some text';
-    const node=new Node(value);
-    expect(node.value).toEqual(true);
-
-    });
+});
+// describe('includes Node Module',()=>{
+//     const value='some text';
+//     const node=new Node();
+//     it('includes()',()=>{
+//     const add= node.insert(value);
+//     expect(node.includes(add)).toBeTruthy();
+//     });
+//     });
     
-
-
-
-});

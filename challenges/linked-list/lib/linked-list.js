@@ -19,7 +19,7 @@ class LinkedList{
     }
     includes(value){
         let node=this.head;
-        while(node){
+        while(node!=null){
             if(node.value===value){
                 return true;
             }
