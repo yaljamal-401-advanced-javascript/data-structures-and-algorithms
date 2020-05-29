@@ -19,18 +19,23 @@ class LinkedList{
     }
     includes(value){
         let node=this.head;
-        while(node!=null){
+        while(node){
             if(node.value===value){
                 return true;
             }
-            node.next;
+           node= node.next;
         }
         return false;
     }
     toString(){
-
-
-
+        let linkedString='';
+        let node=this.head;
+        while(node){
+            linkedString+=`{${node.value}}->`;
+            node= node.next;
+        }
+        linkedString+='NULL';
+        return linkedString;
     }
 
 }
