@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "jest --coverage --verbose",
+        "lint": "eslint '**/*.js'",
         "watch": "jest --watchAll"
-
     },
     "repository": {
         "type": "git",
@@ -22,5 +22,9 @@
     "dependencies": {
         "jest": "^26.0.1",
         "test": "^0.6.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.1.0",
+        "lint": "^0.7.0"
     }
 }
