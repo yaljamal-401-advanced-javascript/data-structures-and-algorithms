@@ -3,14 +3,15 @@
 loops (for,while)
 
 ## Challenge
-
-function that take an array and insert value in the middle
+the challenge is to make linked list data structures have 3 mthod 
+1. insert -> to add the node to the data
+2. includes -> to search on some value and return boolean
+3. toString -> to show all the data as a chain in string type end with null
 
 ## Approach & Efficiency
 
 i used loops because i need to loop across all the elements to change the array
 Big O = n
 
-## Solution
 
-![Reverse an array whitboard](../../assest/chal2.png)
+![Reverse an array whitboard](../../assest/linked.png)
