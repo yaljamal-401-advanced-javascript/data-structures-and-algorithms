@@ -85,5 +85,23 @@ class LinkedList{
     }
     return 'Exception';
   }
+  kthFromEnd(k){
+    let current=this.head;
+    let length=0;
+    let pos=0;
+    while(current){
+      length++;
+      current=current.next;
+    }
+    pos=length-k-1;
+    if(pos<0||k<0)
+      return 'Exception';
+    current=this.head;
+    while(pos){
+      current=current.next;
+      pos--;
+    }
+    return current.value;
+  }
 }
 module.exports=LinkedList;

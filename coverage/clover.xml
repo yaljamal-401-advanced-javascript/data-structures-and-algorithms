@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1590949597174" clover="3.2.0">
-  <project timestamp="1590949597174" name="All files">
-    <metrics statements="81" coveredstatements="75" conditionals="18" coveredconditionals="16" methods="11" coveredmethods="11" elements="110" coveredelements="102" complexity="0" loc="81" ncloc="81" packages="4" files="5" classes="5"/>
+<coverage generated="1591042402089" clover="3.2.0">
+  <project timestamp="1591042402089" name="All files">
+    <metrics statements="95" coveredstatements="90" conditionals="22" coveredconditionals="20" methods="12" coveredmethods="12" elements="129" coveredelements="122" complexity="0" loc="95" ncloc="95" packages="4" files="5" classes="5"/>
     <package name="array-binary-search.lib">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/array-binary-search/lib/array-binary-search.js">
@@ -41,20 +41,20 @@
       </file>
     </package>
     <package name="linked-list.lib">
-      <metrics statements="61" coveredstatements="55" conditionals="16" coveredconditionals="14" methods="8" coveredmethods="8"/>
+      <metrics statements="75" coveredstatements="70" conditionals="20" coveredconditionals="18" methods="9" coveredmethods="9"/>
       <file name="linked-list.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/linked-list/lib/linked-list.js">
-        <metrics statements="58" coveredstatements="52" conditionals="16" coveredconditionals="14" methods="7" coveredmethods="7"/>
+        <metrics statements="72" coveredstatements="67" conditionals="20" coveredconditionals="18" methods="8" coveredmethods="8"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="7" count="8" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="11" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
         <line num="23" count="2" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
         <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
@@ -101,12 +101,26 @@
         <line num="82" count="1" type="stmt"/>
         <line num="84" count="1" type="stmt"/>
         <line num="86" count="1" type="stmt"/>
-        <line num="89" count="1" type="stmt"/>
+        <line num="89" count="7" type="stmt"/>
+        <line num="90" count="7" type="stmt"/>
+        <line num="91" count="7" type="stmt"/>
+        <line num="92" count="7" type="stmt"/>
+        <line num="93" count="23" type="stmt"/>
+        <line num="94" count="23" type="stmt"/>
+        <line num="96" count="7" type="stmt"/>
+        <line num="97" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="98" count="3" type="stmt"/>
+        <line num="99" count="4" type="stmt"/>
+        <line num="100" count="4" type="stmt"/>
+        <line num="101" count="6" type="stmt"/>
+        <line num="102" count="6" type="stmt"/>
+        <line num="104" count="4" type="stmt"/>
+        <line num="107" count="1" type="stmt"/>
       </file>
       <file name="node.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/linked-list/lib/node.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="13" type="stmt"/>
-        <line num="6" count="13" type="stmt"/>
+        <line num="5" count="18" type="stmt"/>
+        <line num="6" count="18" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
       </file>
     </package>

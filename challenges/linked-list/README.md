@@ -10,7 +10,7 @@ the challenge is to make linked list data structures have 3 mthod
 4. append-> insert in the last of linked list
 5. insertBefore -> insert before spacefic element 
 6. insertAfter -> insert after spacefic element 
-
+7. kthFromEnd -> Return the node’s value
 ## Approach & Efficiency
 
 i used loops because i need to loop across all the elements to change the array

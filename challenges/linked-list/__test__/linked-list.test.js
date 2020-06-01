@@ -60,5 +60,21 @@ describe('Insert LinkedList Module', () => {
     expect(list2).toEqual({head:{value:'test 1',next:{value:'test 2',next:null}}});
   });
 
+  it('K test',()=>{
+    let list3 =new LinkedListclass();
+    list3.insert('test 1');
+    expect(list3.kthFromEnd(0)).toEqual('test 1');
+    expect(list3.kthFromEnd(1)).toEqual('Exception');
+    expect(list3.kthFromEnd(2)).toEqual('Exception');
+    list3.insert('test 2');
+    list3.insert('test 3');
+    list3.insert('test 4');
+    list3.insert('test 5');
+    expect(list3.kthFromEnd(-2)).toEqual('Exception');
+    expect(list3.kthFromEnd(1)).toEqual('test 4');
+    expect(list3.kthFromEnd(2)).toEqual('test 3');
+    expect(list3.kthFromEnd(3)).toEqual('test 2');
+  });
+
 });
 
