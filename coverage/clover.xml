@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1591042402089" clover="3.2.0">
-  <project timestamp="1591042402089" name="All files">
-    <metrics statements="95" coveredstatements="90" conditionals="22" coveredconditionals="20" methods="12" coveredmethods="12" elements="129" coveredelements="122" complexity="0" loc="95" ncloc="95" packages="4" files="5" classes="5"/>
+<coverage generated="1591135432104" clover="3.2.0">
+  <project timestamp="1591135432105" name="All files">
+    <metrics statements="104" coveredstatements="90" conditionals="26" coveredconditionals="20" methods="13" coveredmethods="12" elements="143" coveredelements="122" complexity="0" loc="104" ncloc="104" packages="4" files="5" classes="5"/>
     <package name="array-binary-search.lib">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/array-binary-search/lib/array-binary-search.js">
@@ -41,9 +41,9 @@
       </file>
     </package>
     <package name="linked-list.lib">
-      <metrics statements="75" coveredstatements="70" conditionals="20" coveredconditionals="18" methods="9" coveredmethods="9"/>
+      <metrics statements="84" coveredstatements="70" conditionals="24" coveredconditionals="18" methods="10" coveredmethods="9"/>
       <file name="linked-list.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/linked-list/lib/linked-list.js">
-        <metrics statements="72" coveredstatements="67" conditionals="20" coveredconditionals="18" methods="8" coveredmethods="8"/>
+        <metrics statements="81" coveredstatements="67" conditionals="24" coveredconditionals="18" methods="9" coveredmethods="8"/>
         <line num="4" count="1" type="stmt"/>
         <line num="7" count="9" type="stmt"/>
         <line num="10" count="7" type="stmt"/>
@@ -115,7 +115,16 @@
         <line num="101" count="6" type="stmt"/>
         <line num="102" count="6" type="stmt"/>
         <line num="104" count="4" type="stmt"/>
-        <line num="107" count="1" type="stmt"/>
+        <line num="107" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="120" count="1" type="stmt"/>
       </file>
       <file name="node.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/linked-list/lib/node.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
