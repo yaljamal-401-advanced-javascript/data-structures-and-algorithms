@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 const LinkedListclass = require('../lib/linked-list.js');
+// const mergeLists=require('../../IIMerge/ll-merge.js');
 describe('Insert LinkedList Module', () => {
   const value = 'some text';
   const LinkedList = new LinkedListclass();
@@ -75,6 +76,21 @@ describe('Insert LinkedList Module', () => {
     expect(list3.kthFromEnd(2)).toEqual('test 3');
     expect(list3.kthFromEnd(3)).toEqual('test 2');
   });
+  // it('merge()', () => {
+  //   let list4 = new LinkedListclass();
+  //   let list5 = new LinkedListclass();
+  //   let test=new LinkedListclass();
+  //   test.append(1);
+  //   test.append(2);
+  //   test.append(4);
+  //   test.append(5);
+  //   list4.append(1);
+  //   list4.append(2);
+  //   list5.append(4);
+  //   list5.append(5);
+  //   // eslint-disable-next-line no-undef
+  //   expect().toEqual(test);
 
+  // });
 });
 
