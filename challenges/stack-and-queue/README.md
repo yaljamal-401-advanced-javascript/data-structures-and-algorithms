@@ -19,3 +19,5 @@ the challenge is to impelement the queue and stack
 ## Approach & Efficiency
 
 Big O = 1
+
+![Stack and Queue whitboard](../../assest/stack-queue.png)
