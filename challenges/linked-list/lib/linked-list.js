@@ -2,106 +2,119 @@
 'use strict';
 // eslint-disable-next-line no-redeclare
 const Node = require('./node.js');
-class LinkedList{
-  constructor(){
-    this.head=null;
+class LinkedList {
+  constructor() {
+    this.head = null;
   }
-  insert(value){
-    const node=new Node(value);
-    if(!this.head){
-      this.head=node;
+  insert(value) {
+    const node = new Node(value);
+    if (!this.head) {
+      this.head = node;
       return this;
     }
-    let currentNode=this.head;
-    while(currentNode.next){
-      currentNode=currentNode.next;
+    let currentNode = this.head;
+    while (currentNode.next) {
+      currentNode = currentNode.next;
     }
-    currentNode.next=node;
+    currentNode.next = node;
     return this;
   }
-  includes(value){
-    let node=this.head;
-    while(node){
-      if(node.value===value){
+  includes(value) {
+    let node = this.head;
+    while (node) {
+      if (node.value === value) {
         return true;
       }
-      node= node.next;
+      node = node.next;
     }
     return false;
   }
-  toString(){
-    let linkedString='';
-    let node=this.head;
-    while(node){
-      linkedString+=`{${node.value}}->`;
-      node= node.next;
+  toString() {
+    let linkedString = '';
+    let node = this.head;
+    while (node) {
+      linkedString += `{${node.value}}->`;
+      node = node.next;
     }
-    linkedString+='NULL';
+    linkedString += 'NULL';
     return linkedString;
   }
 
-  append(value){
-    const node=new Node(value);
-    if(!this.head){
-      this.head=node;
+  append(value) {
+    const node = new Node(value);
+    if (!this.head) {
+      this.head = node;
       return this;
     }
-    let current=this.head;
-    while(current.next){
-      current=current.next;
+    let current = this.head;
+    while (current.next) {
+      current = current.next;
     }
-    current.next=node;
+    current.next = node;
     return this;
   }
-  insertBefore(value, newVal){
-    if(!this.head)
+  insertBefore(value, newVal) {
+    if (!this.head)
       return 'Exception';
-    let node=new Node(newVal);
-    let current=this.head;
-    if(current.value===value)
+    let node = new Node(newVal);
+    let current = this.head;
+    if (current.value === value)
       return this.insert(newVal);
-    while(current.next){
-      if(current.next.value===value){
-        node.next=current.next;
-        current.next=node;
+    while (current.next) {
+      if (current.next.value === value) {
+        node.next = current.next;
+        current.next = node;
         return this;
       }
-      current=current.next;
+      current = current.next;
     }
     return 'Exception';
   }
-  insertAfter(value, newVal){
-    if(!this.head)
+  insertAfter(value, newVal) {
+    if (!this.head)
       return 'Exception';
-    let node=new Node(newVal);
-    let current=this.head;
-    while(current){
-      if(current.value===value){
-        node.next=current.next;
-        current.next=node;
+    let node = new Node(newVal);
+    let current = this.head;
+    while (current) {
+      if (current.value === value) {
+        node.next = current.next;
+        current.next = node;
         return this;
       }
-      current=current.next;
+      current = current.next;
     }
     return 'Exception';
   }
-  kthFromEnd(k){
-    let current=this.head;
-    let length=0;
-    let pos=0;
-    while(current){
+  kthFromEnd(k) {
+    let current = this.head;
+    let length = 0;
+    let pos = 0;
+    while (current) {
       length++;
-      current=current.next;
+      current = current.next;
     }
-    pos=length-k-1;
-    if(pos<0||k<0)
+    pos = length - k - 1;
+    if (pos < 0 || k < 0)
       return 'Exception';
-    current=this.head;
-    while(pos){
-      current=current.next;
+    current = this.head;
+    while (pos) {
+      current = current.next;
       pos--;
     }
     return current.value;
   }
+  mergeLists(list1,list2){
+    if(list1 && list2){
+      let list3=new LinkedList();
+      list3.head=list1.head;
+      let current=list3.head;
+      while(current.next){
+        current=current.next;
+      }
+      current= current.next;
+      return list3;
+    }else
+      return 'enter another list ';
+  }
 }
-module.exports=LinkedList;
+module.exports = LinkedList;
