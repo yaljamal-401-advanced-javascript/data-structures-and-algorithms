@@ -15,4 +15,4 @@ use predfiend stack to apply queue concept of first in first out
 
 ## Solution
 
-![Whiteboard](../../assets/psedoqueue.jpg)
+![Whiteboard](../../assest/queue-with-stack.jpg)
