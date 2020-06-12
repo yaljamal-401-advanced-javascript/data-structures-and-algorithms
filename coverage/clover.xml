@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1591720985373" clover="3.2.0">
-  <project timestamp="1591720985373" name="All files">
-    <metrics statements="165" coveredstatements="137" conditionals="59" coveredconditionals="38" methods="25" coveredmethods="24" elements="249" coveredelements="199" complexity="0" loc="165" ncloc="165" packages="6" files="8" classes="8"/>
+<coverage generated="1591983002174" clover="3.2.0">
+  <project timestamp="1591983002175" name="All files">
+    <metrics statements="182" coveredstatements="154" conditionals="75" coveredconditionals="54" methods="29" coveredmethods="28" elements="286" coveredelements="236" complexity="0" loc="182" ncloc="182" packages="7" files="9" classes="9"/>
     <package name="array-binary-search.lib">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/array-binary-search/lib/array-binary-search.js">
@@ -38,6 +38,29 @@
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="fifoAnimalShelter.lib">
+      <metrics statements="17" coveredstatements="17" conditionals="16" coveredconditionals="16" methods="4" coveredmethods="4"/>
+      <file name="fifo-animal-shelter.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/fifoAnimalShelter/lib/fifo-animal-shelter.js">
+        <metrics statements="17" coveredstatements="17" conditionals="16" coveredconditionals="16" methods="4" coveredmethods="4"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="8" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="37" count="9" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
       </file>
     </package>
     <package name="linked-list.lib">
