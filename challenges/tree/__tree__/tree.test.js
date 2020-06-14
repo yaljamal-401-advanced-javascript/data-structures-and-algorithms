@@ -53,6 +53,5 @@ describe('Binary Search Tree',()=>{
     const inOrder=tree.inOrder();
     expect(inOrder).toEqual([2,1,3]);
   });
-  
 
 });
