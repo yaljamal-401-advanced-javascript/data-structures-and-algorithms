@@ -18,10 +18,10 @@ the challenge is to impalement the tree
 preOrder >> O(n)
 inOrder >> O(n)
 postOrder >> O(n)
-add >> O(log(n))
-contain >> O(log(n))
+add >> O(log(n/2))
+contain >> O(log(n/2))
+breadthFirst >> o(n)
 
 
 
-
-![Tree whiteboard](../../assest/BTS.png)
+![Tree whiteboard](../../assest/breadthFirst.png)

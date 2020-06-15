@@ -55,17 +55,15 @@ describe('Binary Search Tree',()=>{
   it('Breadth-first approach test',()=>{
     const tree=new Tree();
     const tree2=new Tree();
-    tree.add(1);
     tree.add(10);
-    tree.add(5);
-    tree.add(7);
-    tree.add(3);
-    tree.add(4);
-    tree.add(9);
-    tree.add(15);
+    tree.add(8);
     tree.add(11);
-
+    tree.add(7);
+    tree.add(9);
+    tree.add(6);
+    tree.add(12);
+    tree.add(13);
     const breadth=tree2.breadthFirst(tree);
-    expect(breadth).toEqual([1,3,7,6,2,5,4]);
+    expect(breadth).toEqual([10,8,11,7,9,12,6,13]);
   });
 });
