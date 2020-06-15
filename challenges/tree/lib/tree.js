@@ -1,5 +1,6 @@
+/* eslint-disable no-redeclare */
 /* eslint-disable no-undef */
-
+const Node=require('./node.js');
 class BinaryTree {
   constructor(root) {
     this.root=root;
@@ -81,7 +82,5 @@ class BinaryTree {
     }
     return false;
   }
-  
-
 }
 module.exports=BinaryTree;
