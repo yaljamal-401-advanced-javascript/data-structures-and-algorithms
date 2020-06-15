@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 const Tree=require('../lib/tree.js');
 const Node=require('../lib/node.js');
-const BST=require('../lib/BinarySearchTree.js');
 describe('Binary Search Tree',()=>{
   it('Instance empty tree',()=>{
     const inst=new Tree();
