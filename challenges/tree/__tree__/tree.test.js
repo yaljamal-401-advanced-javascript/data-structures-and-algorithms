@@ -53,5 +53,23 @@ describe('Binary Search Tree',()=>{
     const inOrder=tree.inOrder();
     expect(inOrder).toEqual([2,1,3]);
   });
-
+  it('Breadth-first approach test',()=>{
+    const one=new Node(1);
+    const two =new Node(2);
+    const three=new Node(3);
+    const four=new Node(4);
+    const five =new Node(5);
+    const six=new Node(6);
+    const seven=new Node(7);
+    one.left=two;
+    one.right=three;
+    two.left=four;
+    two.right=five;
+    three.left=six;
+    three.right=seven;
+    const tree=new Tree(one);
+    const tree2=new Tree();
+    const breadth=tree2.breadthFirst(tree);
+    expect(breadth).toEqual([1,3,7,6,2,5,4]);
+  });
 });
