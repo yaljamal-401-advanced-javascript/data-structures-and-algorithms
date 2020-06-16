@@ -52,18 +52,20 @@ describe('Binary Search Tree',()=>{
     const inOrder=tree.inOrder();
     expect(inOrder).toEqual([2,1,3]);
   });
+  const tree=new Tree();
+  const tree2=new Tree();
+  tree.add(10);
+  tree.add(8);
+  tree.add(11);
+  tree.add(7);
+  tree.add(9);
+  tree.add(6);
   it('Breadth-first approach test',()=>{
-    const tree=new Tree();
-    const tree2=new Tree();
-    tree.add(10);
-    tree.add(8);
-    tree.add(11);
-    tree.add(7);
-    tree.add(9);
-    tree.add(6);
-    tree.add(12);
-    tree.add(13);
     const breadth=tree2.breadthFirst(tree);
-    expect(breadth).toEqual([10,8,11,7,9,12,6,13]);
+    expect(breadth).toEqual([10,8,11,7,9,6]);
+  });
+  it('findMaximumValue test',()=>{
+    const max=tree.findMaximumValue();
+    expect(max).toEqual(11);
   });
 });

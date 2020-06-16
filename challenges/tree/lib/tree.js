@@ -38,7 +38,7 @@ class BinaryTree {
     _traversal(this.root);
     return results;
   }
- 
+
   add(value){
     let currentNode=this.root;
     let node=new Node(value);
@@ -98,5 +98,24 @@ class BinaryTree {
     return results;
   }
 
+  findMaximumValue(){
+    const currentNode=this.root;
+    let maxValue=currentNode.value;
+    if(!currentNode) return 'the tree is empty';
+    const _traversal=(node)=>{
+      if(node.left){
+        if(node.left.value>=maxValue) {
+          maxValue=node.left.value;
+        }
+      }
+      if(node.right){
+        if(node.right.value>=maxValue) {
+          maxValue=node.right.value;
+        }
+      }
+    };
+    _traversal(currentNode);
+    return maxValue;
+  }
 }
 module.exports = BinaryTree;
