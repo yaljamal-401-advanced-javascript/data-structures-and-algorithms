@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1592312651852" clover="3.2.0">
-  <project timestamp="1592312651852" name="All files">
-    <metrics statements="275" coveredstatements="232" conditionals="131" coveredconditionals="94" methods="44" coveredmethods="42" elements="450" coveredelements="368" complexity="0" loc="275" ncloc="275" packages="9" files="12" classes="12"/>
+<coverage generated="1593376548858" clover="3.2.0">
+  <project timestamp="1593376548859" name="All files">
+    <metrics statements="285" coveredstatements="242" conditionals="133" coveredconditionals="96" methods="45" coveredmethods="43" elements="463" coveredelements="381" complexity="0" loc="285" ncloc="285" packages="10" files="13" classes="13"/>
     <package name="array-binary-search.lib">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/array-binary-search/lib/array-binary-search.js">
@@ -81,6 +81,22 @@
         <line num="20" count="7" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="insertion-sort">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="insertion-sort.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/insertion-sort/insertion-sort.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
     </package>
     <package name="linked-list.lib">
