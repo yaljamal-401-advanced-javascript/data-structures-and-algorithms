@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1593376548858" clover="3.2.0">
-  <project timestamp="1593376548859" name="All files">
+<coverage generated="1593463169224" clover="3.2.0">
+  <project timestamp="1593463169224" name="All files">
     <metrics statements="285" coveredstatements="242" conditionals="133" coveredconditionals="96" methods="45" coveredmethods="43" elements="463" coveredelements="381" complexity="0" loc="285" ncloc="285" packages="10" files="13" classes="13"/>
     <package name="array-binary-search.lib">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
