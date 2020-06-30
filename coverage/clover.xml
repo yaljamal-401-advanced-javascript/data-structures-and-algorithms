@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1593463169224" clover="3.2.0">
-  <project timestamp="1593463169224" name="All files">
-    <metrics statements="285" coveredstatements="242" conditionals="133" coveredconditionals="96" methods="45" coveredmethods="43" elements="463" coveredelements="381" complexity="0" loc="285" ncloc="285" packages="10" files="13" classes="13"/>
+<coverage generated="1593527652344" clover="3.2.0">
+  <project timestamp="1593527652344" name="All files">
+    <metrics statements="302" coveredstatements="259" conditionals="137" coveredconditionals="100" methods="48" coveredmethods="46" elements="487" coveredelements="405" complexity="0" loc="302" ncloc="302" packages="11" files="14" classes="14"/>
     <package name="array-binary-search.lib">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/array-binary-search/lib/array-binary-search.js">
@@ -233,6 +233,29 @@
         <line num="32" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="quickSort">
+      <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="quickSort.js" path="/mnt/c/Users/STD/projects/codefellows/401/data-structures-and-algorithms/challenges/quickSort/quickSort.js">
+        <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="3" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="8" count="25" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="16" count="16" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="23" count="27" type="stmt"/>
+        <line num="24" count="27" type="stmt"/>
+        <line num="25" count="27" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
       </file>
     </package>
     <package name="stack-and-queue.lib">
