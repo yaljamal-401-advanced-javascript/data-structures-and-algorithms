@@ -1,4 +1,4 @@
-# Insertion Sort
+# quickSort
 Implement quickSort function
 
 ## Challenge
