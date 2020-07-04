@@ -23,5 +23,6 @@ function swap(arr, i, low) {
   let temp = arr[i];
   arr[i] = arr[low];
   arr[low] = temp;
+  return temp;
 }
 module.exports = quickSort;

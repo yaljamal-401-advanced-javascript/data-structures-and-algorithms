@@ -1,31 +1,31 @@
 {
-    "name": "data-structures-and-algorithms",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "jest --coverage --verbose",
-        "lint": "eslint '**/*.js'",
-        "watch": "jest --watchAll"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/yaljamal-401-advanced-javascript/data-structures-and-algorithms.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/yaljamal-401-advanced-javascript/data-structures-and-algorithms/issues"
-    },
-    "homepage": "https://github.com/yaljamal-401-advanced-javascript/data-structures-and-algorithms#readme",
-    "dependencies": {
-        "jest": "^26.0.1",
-        "mocha": "^7.2.0",
-        "test": "^0.6.0"
-    },
-    "devDependencies": {
-        "eslint": "^7.1.0",
-        "lint": "^0.7.0"
-    }
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "## Table of Contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'",
+    "watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaljamal-401-advanced-javascript/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaljamal-401-advanced-javascript/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/yaljamal-401-advanced-javascript/data-structures-and-algorithms#readme",
+  "dependencies": {
+    "jest": "^26.0.1",
+    "mocha": "^7.2.0",
+    "test": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "lint": "^0.7.0"
+  }
 }
