@@ -5,6 +5,7 @@ const Node = require('../lib/node.js');
 describe('Binary Search Tree', () => {
   it('Instance empty tree', () => {
     const inst = new Tree();
+
     expect(inst instanceof Tree).toBeTruthy();
   });
   it('instantiate a tree with a single root node', () => {

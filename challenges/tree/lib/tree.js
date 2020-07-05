@@ -1,5 +1,6 @@
+/* eslint-disable no-redeclare */
 /* eslint-disable no-undef */
-
+const Node=require('./node.js');
 class BinaryTree {
   constructor(root) {
     this.root=root;
@@ -37,7 +38,49 @@ class BinaryTree {
     _traversal(this.root);
     return results;
   }
+  add(value){
+    let currentNode=this.root;
+    let node=new Node(value);
+    if(!currentNode){
+      this.root=node;
+      return this;
+    }
+    while(currentNode){
+      if(currentNode.value<node.value){
+        if(currentNode.right===null){
+          currentNode.right=node;
+          return this;
+        }else{
+          currentNode=currentNode.right;
+          continue;
+        }
+      }else{
+        if(currentNode.left===null){
+          currentNode.left=node;
+          return this;
+        }else{
+          currentNode=currentNode.left;
+          continue;
+        }
+      }
+    }
+  }
+  contains(value){
+    let currentNode=this.root;
+    if(currentNode===null){
+      return false;
+    }
+    while(currentNode){
+      if(currentNode.value===value){
+        return true;
+      }else if(currentNode.value<value){
+        currentNode=currentNode.right;
+      }else if(currentNode.value>value){
+        currentNode=currentNode.left;
+      }
 
-
+    }
+    return false;
+  }
 }
 module.exports=BinaryTree;
