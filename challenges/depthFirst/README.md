@@ -1,0 +1,15 @@
+# depthFirst
+
+Implement a `depthFirst` on a `graph`.
+
+## Challenge
+
+Create a function that accepts an adjacency list as a graph, and conducts a depth first traversal. Without utilizing any of the built-in methods available to your language, return a collection of nodes in their pre-order depth-first traversal order.
+
+## Approach & Efficiency
+
+- Time Complexity: O(n^2)
+
+## Solution
+
+![Whiteboard](../../assest/depthFirst.png)
